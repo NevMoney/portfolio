@@ -59,7 +59,6 @@ export default function KeyFeature() {
               alt={item.altText}
               title={item.title}
               text={item.text}
-              // {...item}
             />
           ))}
         </Grid>
