@@ -16,7 +16,7 @@ export default function Header({ className }) {
           {menuItems.map((menuItem, i) => (
             <Link
               activeClass="active"
-              to={menutItem.path}
+              to={menuItem.path}
               spy={true}
               smooth={true}
               offset={-70}

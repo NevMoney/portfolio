@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev": "next dev", //npm run dev to run locally
+    "dev": "next dev",
     "build": "next build && next export",
     "postbuild": "next-sitemap"
   },
