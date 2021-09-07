@@ -34,6 +34,8 @@ export default function Header({ className }) {
         >
           Get Started
         </Button>
+        {/* to ensure it works well on mobile, creating new component */}
+        <MobileDrawer />
       </Container>
     </header>
   )
